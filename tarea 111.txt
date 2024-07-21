@@ -1,0 +1,77 @@
+ /*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.tarea.m8;
+
+/**
+ *
+ * @author elmat
+ */
+public class Deportista extends Persona {
+    private String deporte;
+
+    public Deportista(String nombre, int edad, String deporte) {
+        int (nombre, edad);
+        this.deporte = deporte;
+    }
+
+    public void entrenar() {
+        System.out.println("Como deportista de " + this.deporte + ", estoy entrenando para mejorar mi rendimiento.");
+   }
+}
+[9:25 p. m., 18/7/2024] Riccy: el sugundo  de personas
+[9:25 p. m., 18/7/2024] Riccy: /*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.tarea.m6;
+
+/**
+ *
+ * @author elmat
+ */
+public class Deportista extends Persona {
+    private String deporte;
+
+    public Deportista(String nombre, int edad, String deporte) {
+        int (nombre, edad);
+        this.deporte = deporte;
+    }
+
+    public void entrenar() {
+        System.out.println("Como deportista de " + this.deporte + ", estoy entrenando para mejorar mi rendimiento.");
+   }
+}
+[9:25 p. m., 18/7/2024] Riccy: el tercero del doctor
+[9:25 p. m., 18/7/2024] Riccy: /*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.tarea.m6;
+
+/**
+ *
+ * @author elmat
+ */
+public class doctor extends Persona 
+{
+    private String especialidad;
+    public String getEspecialidad() 
+    {
+        return especialidad;
+    }
+
+    public void setEspecialidad(String especialidad) {
+        this.especialidad = especialidad;
+    }
+
+    public void mostrarInformacionDoctor() 
+    {
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Número de ID: " + getNumId());
+        System.out.println("Edad: " + getEdad() + " años");
+        System.out.println("Especialidad: " + especialidad);
+    }
+
+}
